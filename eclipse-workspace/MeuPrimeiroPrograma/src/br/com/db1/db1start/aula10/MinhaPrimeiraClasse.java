@@ -1,0 +1,48 @@
+package br.com.db1.db1start.aula10;
+
+public class MinhaPrimeiraClasse {
+	
+	public static void main(String[] args) {
+		System.out.println("Ola Mundo!");
+		
+		
+		Integer numeroASerVerificado = 3;
+		
+		boolean eVerdade = numeroASerVerificado == 3;
+		boolean eVerdadeNumeroImpar = numeroASerVerificado %2 > 0;
+		
+		System.out.println(eVerdade);
+		System.out.println(eVerdadeNumeroImpar);
+		
+		Integer numeroParaSomar = 7;
+		Integer soma = numeroASerVerificado + numeroParaSomar;
+		System.out.println(soma);
+		
+		Integer subtracao = numeroParaSomar - numeroASerVerificado;
+		System.out.println(subtracao);
+		
+		Integer resultadoDaSoma = MinhaPrimeiraClasse.somar(20, 10);
+		MinhaPrimeiraClasse.imprimirValor(resultadoDaSoma);
+		Integer resultadoDaSubtracao = MinhaPrimeiraClasse.subtracao(20, 10);
+		MinhaPrimeiraClasse.imprimirValor(resultadoDaSubtracao);
+		Integer resultadoDaMutiplicacao = MinhaPrimeiraClasse.mutiplicacao(20, 10);
+		MinhaPrimeiraClasse.imprimirValor(resultadoDaMutiplicacao);
+		Integer resultadoDaDivisao = MinhaPrimeiraClasse.divisao(20, 10);
+		MinhaPrimeiraClasse.imprimirValor(resultadoDaDivisao);
+	}
+	public static Integer somar(Integer numeroUM, Integer numeroDois) {
+		return numeroUM + numeroDois;
+	}
+	public static void imprimirValor(Integer valor) {
+		System.out.println(valor);
+	}
+	public static Integer subtracao(Integer numeroUm, Integer numeroDois) {
+		return numeroUm - numeroDois;
+	}
+	public static Integer mutiplicacao(Integer numeroUm, Integer numeroDois) {
+		return numeroUm * numeroDois;
+	}
+	public static Integer divisao(Integer numeroUm, Integer numeroDois) {
+		return numeroUm / numeroDois;
+	}
+}

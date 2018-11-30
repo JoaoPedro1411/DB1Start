@@ -1,0 +1,34 @@
+package br.com.db1.db1start.aula10;
+
+public class MinhaPrimeiraClasse {
+	
+	public static void main(String[] args) {
+	/*	System.out.println("Ola Mundo");
+		
+		
+		Integer numeroASerVerificado = 3;
+		
+		boolean eVerdade = numeroASerVerificado == 3;
+		boolean eVerdadeNumeroImpar = numeroASerVerificado %2 > 0;
+		
+		System.out.println(eVerdade);
+		System.out.println(eVerdadeNumeroImpar);
+		
+		Integer numeroParaSomar = 7;
+		Integer soma = numeroASerVerificado + numeroParaSomar;
+		System.out.println(soma);
+		
+		Integer subtracao = numeroParaSomar - numeroASerVerificado;
+		System.out.println(subtracao);*/
+		
+		Integer resultadoDaSoma = MinhaPrimeiraClasse.somar(10, 20);
+		MinhaPrimeiraClasse.imprimirValor("O resultado da soma e:" resultadoDaSoma);
+	}
+	public static Integer somar(Integer numeroUM, Integer numeroDois) {
+		return numeroUM + numeroDois;
+	}
+	public static void imprimirValor(Integer valor) {
+		System.out.println(valor);
+		
+	}
+}
