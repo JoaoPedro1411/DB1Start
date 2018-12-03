@@ -1,0 +1,18 @@
+package br.com.db1.db1start.aula11.ex2.test;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import br.com.db1.db1start.aula11.ex2.Texto;
+
+public class TextoTeste {
+	
+	@Test
+	public void deveMudarParaLetraMaiuscula() {
+		Texto texto = new Texto();
+		String textoTransformado = texto.mudarTextoParaLetraMaiuscula("exemplo texto");
+		Assert.assertEquals("EXEMPLO TEXTO", textoTransformado);
+	}
+	
+
+}

@@ -1,0 +1,18 @@
+package br.com.db1.db1start.aula11.ex1;
+
+public class Calculadora {
+	
+	public Integer somarDoisNumero(Integer num1, Integer num2) {
+		return num1 + num2;
+	}
+	public Integer subtrairDoisNumero(Integer num1, Integer num2) {
+		return num1 - num2;
+	}
+	public Integer multiplicarDoisNumero(Integer num1, Integer num2) {
+		return num1 * num2;
+	}
+	public Integer dividirDoisNumero(Integer num1, Integer num2) {
+		return num1 / num2;
+	}
+
+}
