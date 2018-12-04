@@ -34,7 +34,7 @@ public class Texto {
 	}
 	public String substituirNomeParaAluno(String texto) {
 		int indexDoEspaco = texto.indexOf(" ");
-		String aluno = texto.substring(0, indexDoEspaco);
+		String aluno = texto.substring(0, indexDoEspaco)
 		return texto.replace(aluno, "Aluno");
 	}
 	public String[] mostrarSeparado(String texto) {

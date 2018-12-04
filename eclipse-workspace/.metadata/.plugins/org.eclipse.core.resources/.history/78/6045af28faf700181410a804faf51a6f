@@ -59,7 +59,7 @@ public class TextoTeste {
 	public void deveRetornarAluno() {
 		Texto texto = new Texto();
 		String retornarAluno = texto.substituirNomeParaAluno("João Pedro Malheiro Oliveira");
-		Assert.assertEquals("Aluno Pedro Malheiro Oliveira", retornarAluno);
+		Assert.assertEquals("Aluno", retornarAluno);
 	}
 	@Test
 	public void deveRetornarTextoComEspaco() {
