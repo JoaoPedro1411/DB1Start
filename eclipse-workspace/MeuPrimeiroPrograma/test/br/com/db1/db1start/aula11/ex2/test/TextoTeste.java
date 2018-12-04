@@ -37,5 +37,55 @@ public class TextoTeste {
 		int tamanhoDoTexto = texto.tamanhoDoTextoSemEspaco(" DB1START ");
 		Assert.assertEquals(8, tamanhoDoTexto);
 	}
+	@Test
+	public void deveRetornar4PrimeirasLetrasDoNome() {
+		Texto texto = new Texto();
+		String retorna4PrimeiraLetras = texto.retornar4PrimeirasLetrasDoNome("João Pedro Malheiro Oliveira");
+		Assert.assertEquals("João", retorna4PrimeiraLetras);
+	}
+	@Test
+	public void deveRetornarDepoisDa3LetraDoNome() {
+		Texto texto = new Texto();
+		String retornarDepoisDa3LetraDoNome = texto.retornarDepoisDa3LetraDoNome("João Pedro Malheiro Oliveira");
+		Assert.assertEquals("o Pedro Malheiro Oliveira", retornarDepoisDa3LetraDoNome);
+	}
+	@Test
+	public void deveRetornar4UltimasLetrasDoNome() {
+		Texto texto = new Texto();
+		String retorna4UltimasLetras = texto.retornar4UltimasLetrasDoNome("João Pedro Malheiro Oliveira");
+		Assert.assertEquals("eira", retorna4UltimasLetras);
+	}
+	@Test
+	public void deveRetornarAluno() {
+		Texto texto = new Texto();
+		String retornarAluno = texto.substituirNomeParaAluno("João Pedro Malheiro Oliveira");
+		Assert.assertEquals("Aluno", retornarAluno);
+	}
+	@Test
+	public void deveRetornarTextoComEspaco() {
+		Texto texto = new Texto();
+		String[] retornarComEspaco = texto.mostrarSeparado("banana, maçã, melancia");
+		String[] retornoEsperado = new String[] {"banana", "maçã", "melancia"};
+		retornoEsperado = retornarComEspaco;
+		Assert.assertArrayEquals("banana maçã melancia", retornoEsperado, retornarComEspaco);
+	}
+	@Test
+	public void deveRetornarQuantidadeDeVogais() {
+		Texto texto = new Texto();
+		int quantidadeDeVogal = texto.contarVogais("Alfabeto");
+		Assert.assertEquals(4, quantidadeDeVogal);
+	}
+	@Test
+	public void deveRetornarQuantidadeDeConsoantes() {
+		Texto texto = new Texto();
+		int quantidadeDeConsoante = texto.contarConsoantes("Alfabeto");
+		Assert.assertEquals(4, quantidadeDeConsoante);
+	}
+	@Test
+	public void deveRetornarTextoInvertido() {
+		Texto texto = new Texto();
+		String textoInvertido = texto.inverterTexto("Java");
+		Assert.assertEquals("avaJ", textoInvertido);
+	}
 
 }

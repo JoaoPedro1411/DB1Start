@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculadoraTest" project="MeuPrimeiroPrograma" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0">
+    <testcase name="deveVerificarNumeroImpar" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveSubtrairDoisNumero" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveContarNumerosImparesAte100" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveMultiplicarDoisNumero" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveSomarDoisNumero" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveDividirDoisNumero" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveVerificarMaiorNumero" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+    <testcase name="deveVerificarNumeroPar" classname="br.com.db1.db1start.aula11.ex1.test.CalculadoraTest" time="0.0"/>
+  </testsuite>
+</testrun>

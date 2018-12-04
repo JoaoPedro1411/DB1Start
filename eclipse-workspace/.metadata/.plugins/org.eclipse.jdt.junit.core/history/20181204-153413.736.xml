@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TextoTeste" project="MeuPrimeiroPrograma" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.016">
+    <testcase name="deveRetornarTamanhoDoTextoSemEspaco" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornarDepoisDa3LetraDoNome" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveMudarParaLetraMaiuscula" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornar4PrimeirasLetrasDoNome" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornarTextoComEspaco" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveMudarParaLetraMinuscula" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornar4UltimasLetrasDoNome" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornarAluno" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornarTamanhoDoTextoComEspaco" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.0"/>
+    <testcase name="deveRetornarTamanhoDoTexto" classname="br.com.db1.db1start.aula11.ex2.test.TextoTeste" time="0.016"/>
+  </testsuite>
+</testrun>

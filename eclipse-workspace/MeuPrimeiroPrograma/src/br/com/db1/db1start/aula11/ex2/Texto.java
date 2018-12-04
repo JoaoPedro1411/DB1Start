@@ -17,7 +17,53 @@ public class Texto {
 	public int tamanhoDoTextoSemEspaco(String texto) {
 		return texto.trim().length();
 	}
-	public String retornar4PrimeirasLetras() {
-		
+	public String retornar4PrimeirasLetrasDoNome(String texto) {
+		String retorno = "";
+		retorno = texto.substring(0, 4);
+		return retorno;
+	}
+	public String retornarDepoisDa3LetraDoNome(String texto) {
+		String retorno = "";
+		retorno = texto.substring(3);
+		return retorno;
+	}
+	public String retornar4UltimasLetrasDoNome(String texto) {
+		String retorno = "";
+		retorno = texto.substring(24);
+		return retorno;
+	}
+	public String substituirNomeParaAluno(String texto) {
+		String aluno = texto.replaceAll("João Pedro Malheiro Oliveira", "Aluno");
+		return aluno;
+	}
+	public String[] mostrarSeparado(String texto) {
+		String[] separador = texto.split(",");
+		return separador;
+	}
+	public int contarVogais(String texto) {
+		String textoMinusculo = texto.toLowerCase();
+		int tamanhoDoTexto = texto.length();
+		String vogais = "aeiou";
+		int totalVogais = 0;
+		for(int i = 0; i < tamanhoDoTexto; i++) {
+			if(vogais.indexOf(textoMinusculo.charAt(i)) >= 0)
+				totalVogais++;
+		}
+		return totalVogais;
+	}
+	public int contarConsoantes(String texto) {
+		String textoMinusculo = texto.toLowerCase();
+		int tamanhoDoTexto = texto.length();
+		String consoantes = "bcdfghjklmnpqrstvwxyz";
+		int totalConsoantes = 0;
+		for(int i = 0; i < tamanhoDoTexto; i++) {
+			if(consoantes.indexOf(textoMinusculo.charAt(i)) >= 0)
+				totalConsoantes++;
+		}
+		return totalConsoantes;
+	}
+	public String inverterTexto(String texto) {
+		String inverterTexto = new StringBuffer(texto).reverse().toString();
+		return inverterTexto;
 	}
 }

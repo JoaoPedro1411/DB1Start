@@ -1,0 +1,17 @@
+package br.com.db1.db1start.aula11.ex3.test;
+
+import org.junit.Test;
+
+import br.com.db1.db1start.aula11.ex3.Matematica;
+import org.junit.Assert;
+
+public class MatematicaTest {
+	
+	@Test
+	public void deveRetornarOMenorValor() {
+		Matematica matematica = new Matematica();
+		double menorValor = matematica.menorValor(10, 5);
+		Assert.assertEquals(5, menorValor,0);
+	}
+
+}

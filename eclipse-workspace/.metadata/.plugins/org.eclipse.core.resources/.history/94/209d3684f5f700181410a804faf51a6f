@@ -1,0 +1,12 @@
+package br.com.db1.db1start.aula11.ex3;
+
+public class Matematica {
+	
+	public double menorValor(double num1, double num2) {
+		return Math.min(num1, num2);
+	}
+	public double menorValor(double num1, double num2, double num3) {
+		return Math.min(num1, num2, num3);
+	}
+
+}
