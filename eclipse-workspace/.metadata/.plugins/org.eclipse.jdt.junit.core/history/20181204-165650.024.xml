@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MatematicaTest" project="MeuPrimeiroPrograma" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="br.com.db1.db1start.aula11.ex3.test.MatematicaTest" time="0.0">
-    <testcase name="deveRetornarOMenorValor" classname="br.com.db1.db1start.aula11.ex3.test.MatematicaTest" time="0.0"/>
-    <testcase name="deveRetornarOMenorValor2" classname="br.com.db1.db1start.aula11.ex3.test.MatematicaTest" time="0.0"/>
-  </testsuite>
-</testrun>

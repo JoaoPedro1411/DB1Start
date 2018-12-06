@@ -1,0 +1,14 @@
+package br.com.db1.db1start.aula13.test;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class PessoaTest {
+	
+	@Test
+	public void testar() {
+		Pessoa pessoal = new Pessoa();
+		pessoa.setNome("fusca");
+		Assert.assertEquals("fusca", pessoa.setNome());
+	}
+}

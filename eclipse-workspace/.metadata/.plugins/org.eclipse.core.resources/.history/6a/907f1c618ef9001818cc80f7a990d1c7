@@ -1,0 +1,15 @@
+package br.com.db1.db1start.aula13;
+
+import java.util.Date;
+
+public class Pessoa {
+	
+	private String nome;
+	private Date dataNascimento;
+	private Double peso;
+	
+	public void setNome(String valor) {
+		nome = valor;
+	}
+
+}
