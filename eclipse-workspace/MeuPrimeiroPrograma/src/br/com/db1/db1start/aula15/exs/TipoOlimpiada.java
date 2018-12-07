@@ -1,0 +1,8 @@
+package br.com.db1.db1start.aula15.exs;
+
+public enum TipoOlimpiada {
+	
+	INVERNO,
+	VERAO;
+
+}

@@ -10,6 +10,19 @@
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="br.com.db1.db1start.aula13.Pessoa"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.Feijoada"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.Feijão"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.Bacon"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.heranca.Animal"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.heranca.Galinha"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.heranca.Peixe"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.Basquete"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.EsportesColetivos"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.test.Volei"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.EsportesIndividuais"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.TipoOlimpiada"/>
+<fullyQualifiedTypeName name="br.com.db1.db1start.aula15.exs.Olimpiada"/>
 </qualifiedTypeNameHistroy>

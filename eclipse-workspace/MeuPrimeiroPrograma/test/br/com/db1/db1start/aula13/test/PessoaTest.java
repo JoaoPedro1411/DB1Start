@@ -14,7 +14,7 @@ public class PessoaTest {
 		Assert.assertEquals("fusca", pessoa.getNome());
 	}
 	@Test
-	public void testarPeso() {
+	public void testarDataNascimento() {
 		Pessoa pessoa = new Pessoa();
 		pessoa.setDataNascimento(14/11/2000);
 		Assert.assertEquals(14/11/2000, pessoa.getDataNascimento());
@@ -22,7 +22,7 @@ public class PessoaTest {
 	@Test
 	public void testarPeso() {
 		Pessoa pessoa = new Pessoa();
-		pessoa.setPeso(105,O);
+		pessoa.setPeso(105.0);
 		Assert.assertEquals(105, pessoa.getPeso(),0);
 	}
 }

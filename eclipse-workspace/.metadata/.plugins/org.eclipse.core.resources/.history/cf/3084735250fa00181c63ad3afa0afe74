@@ -1,0 +1,9 @@
+package br.com.db1.db1start.aula15.exs;
+
+public abstract class Olimpiada {
+	
+	public void jogos() {
+		System.out.println("Jogo em");
+	}
+
+}

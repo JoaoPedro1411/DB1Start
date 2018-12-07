@@ -1,0 +1,16 @@
+package br.com.db1.db1start.aula15.heranca;
+
+public class AnimalTest {
+	
+	public void exemploTest() {
+		Animal animal = new Animal();
+		animal.respirar();
+		
+		Galinha galinha = new Galinha();
+		galinha.respirar();
+		
+		Animal galinha2 = new Galinha();
+		
+	}
+
+}

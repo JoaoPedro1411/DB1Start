@@ -1,0 +1,28 @@
+package br.com.db1.db1start.aula13.test;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import br.com.db1.db1start.aula13.Pessoa;
+
+public class PessoaTest {
+	
+	@Test
+	public void testar() {
+		Pessoa pessoa = new Pessoa();
+		pessoa.setNome("fusca");
+		Assert.assertEquals("fusca", pessoa.getNome());
+	}
+	@Test
+	public void testarDataNascimento() {
+		Pessoa pessoa = new Pessoa();
+		pessoa.setDataNascimento(14/11/2000);
+		Assert.assertEquals(14/11/2000, pessoa.getDataNascimento());
+	}
+	@Test
+	public void testarPeso() {
+		Pessoa pessoa = new Pessoa();
+		pessoa.setPeso(105);
+		Assert.assertEquals(105, pessoa.getPeso(),0);
+	}
+}
