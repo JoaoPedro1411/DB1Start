@@ -1,9 +1,0 @@
-package br.com.db1.db1start.aula11.ex1;
-
-public class Calculadora {
-	
-	public Integer somarDoisNumeros(Integer num1, Integer num2) {
-		return num1 + num2;
-	}
-
-}

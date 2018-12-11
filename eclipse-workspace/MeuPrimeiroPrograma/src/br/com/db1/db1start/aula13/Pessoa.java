@@ -1,14 +1,12 @@
 package br.com.db1.db1start.aula13;
 
 import java.util.Date;
-import java.util.List;
 
 public class Pessoa {
 
 	private String nome;
 	private Date dataNascimento;
 	private Double peso;
-	private List<Endereco> endereco;
 
 	public String getNome() {
 		return nome;
