@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class RegioesTest {
+	
 	@Test
 	public void deveRetornarEstadosDoSul() {
 		Uf[] ufs = Regioes.SUL.getUfs();

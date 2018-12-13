@@ -19,10 +19,10 @@ public class Calculadora {
 	private Long id;
 
 	@Column(name = "num1", nullable = false, length = 4)
-	private Integer num1;
+	private Double num1;
 
 	@Column(name = "num2", nullable = false, length = 4)
-	private Integer num2;
+	private Double num2;
 
 	@Enumerated
 	@Column(name = "opm", nullable = false, length = 4)
@@ -32,15 +32,67 @@ public class Calculadora {
 	private LocalDateTime dataOperacao;
 
 	@Column(name = "resultado", nullable = false, length = 10)
-	private Integer resultado;
+	private Double resultado;
 
-	public Calculadora(Integer num1, Integer num2) {
+	public Calculadora(Double num1, Double num2) {
 		this.num1 = num1;
 		this.num2 = num2;
 	}
 
-	public Integer executaOperacao(OperacaoMatematica opm) {
-		return opm.executar(this.num1, this.num2);
+	public void executaOperacao(OperacaoMatematica opm) {
+		this.opm = opm;
+		resultado = opm.executar(this.num1, this.num2);
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Double getNum1() {
+		return num1;
+	}
+
+	public void setNum1(Double num1) {
+		this.num1 = num1;
+	}
+
+	public Double getNum2() {
+		return num2;
+	}
+
+	public void setNum2(Double num2) {
+		this.num2 = num2;
+	}
+
+	public OperacaoMatematica getOpm() {
+		return opm;
+	}
+
+	public void setOpm(OperacaoMatematica opm) {
+		this.opm = opm;
+	}
+
+	public LocalDateTime getDataOperacao() {
+		return dataOperacao;
+	}
+
+	public void setDataOperacao(LocalDateTime dataOperacao) {
+		this.dataOperacao = dataOperacao;
+	}
+
+	public Double getResultado() {
+		return resultado;
+	}
+
+	public void setResultado(Double resultado) {
+		this.resultado = resultado;
+	}
+	public Calculadora() {
+		
 	}
 
 }

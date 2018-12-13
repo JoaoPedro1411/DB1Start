@@ -1,18 +1,9 @@
 package br.com.db1.calculadoraapi.calculadora_api.repository;
 
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.db1.calculadoraapi.calculadora_api.model.Calculadora;
 
-public class CalculadoraRepository {
-
-	private List<Calculadora> calc;
-
-	public CalculadoraRepository(List<Calculadora> calc) {
-
-		this.calc = new List<Calculadora>();
-
-		Calculadora soma = new Calculadora(10, 10);
-	}
+public interface CalculadoraRepository extends JpaRepository<Calculadora, Long> {
 
 }
