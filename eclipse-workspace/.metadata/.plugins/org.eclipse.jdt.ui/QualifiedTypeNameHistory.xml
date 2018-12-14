@@ -35,7 +35,7 @@
 <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-<fullyQualifiedTypeName name="br.com.db1.calculadoraapi.calculadora_api.model.OperacaoMatematica"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.db1.calculadoraapi.calculadora_api.model.Calculadora"/>
+<fullyQualifiedTypeName name="br.com.db1.calculadoraapi.calculadora_api.model.OperacaoMatematica"/>
 </qualifiedTypeNameHistroy>

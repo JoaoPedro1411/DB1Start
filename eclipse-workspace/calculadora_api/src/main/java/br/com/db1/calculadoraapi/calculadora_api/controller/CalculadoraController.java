@@ -32,9 +32,9 @@ public class CalculadoraController {
 		return calculadora;
 
 	}
-	
+
 	@GetMapping
-	public List<Calculadora> todosCalculos(){
+	public List<Calculadora> todosCalculos() {
 		return calculadoraService.buscarTodosCalculos();
 	}
 
